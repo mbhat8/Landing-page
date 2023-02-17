@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-hero-wrapper{
+    background-color: #1f2937;
+
+}
+
+img{
+    width: auto;
+    height:200px;
+    /* margin-right: 150px; */
+}
+
+.header{
+    color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+.header-logo{
+    font-size: 24px;
+}
+
+.header-links{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 5rem;
+    list-style-type: none;
+}
+.header-links a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.hero-card h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+.hero-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-card{
+    align-self: center;
+    margin-right: 150px;
+}
+.button1{
+    padding: 5px 20px;
+    background-color:#3883f6;
+    border-radius: 5px;
+    color:white;
+    font-weight: 900;
+    border: 0;
+}
