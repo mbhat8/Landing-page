@@ -107,7 +107,8 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5rem;
+    margin: 1rem;
+    max-width: 200px;
 }
 .card p{
     padding-left: 30px;
@@ -122,8 +123,74 @@ img{
 
 .quote-text{
     font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1f2937;
+    margin-bottom: 5px;
 }
 
 .quote-name{
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.quote-wrapper{
+    padding: 5rem;
+    padding-left: 22rem;
+    padding-right: 22rem;
+}
+
+/*----------last section---*/
+.last-section{
+    background-color:white;
+    padding: 5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+.action{
+    display: flex;
+    background-color:#3883f6;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.button2{
+    padding: 5px 20px;
+    background-color:#3883f6;
+    border-radius: 5px;
+    color:white;
+    font-weight: 900;
+    border-color:red;
     
+}
+
+.left-side .notbold{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 0;
+}
+   
+.left-side .bold{
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 1px;
+}
+
+
+
+/*---------footer----*/
+
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 18px;
 }
