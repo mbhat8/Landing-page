@@ -74,3 +74,56 @@ img{
     font-weight: 900;
     border: 0;
 }
+
+
+/* Here starts second wrapper*/
+.info-header{
+    text-align: center;
+    font-size: 36px;
+    font-weight:800;
+    color: #1f2937;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* margin: .5rem; */
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.info-container img{
+    border-radius: 30px;
+    border-style: solid;   
+    border-width: 5px;
+    border-color: #3883f6;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+.card p{
+    padding-left: 30px;
+    padding-right: 30px;
+    align-self: center;
+}
+
+/*---------Quote-section---------*/
+.quote-section{
+    background-color:#e5e7eb;
+}
+
+.quote-text{
+    font-size: 36px;
+}
+
+.quote-name{
+    
+}
