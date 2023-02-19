@@ -82,7 +82,7 @@ img{
     font-size: 36px;
     font-weight:800;
     color: #1f2937;
-    margin: 0;
+    margin-bottom:1rem;
     margin-top: 1rem;
 }
 
@@ -94,13 +94,16 @@ img{
     /* margin: .5rem; */
     font-size: 18px;
     color: #1f2937;
+    flex-wrap: wrap;
 }
 
 .info-container img{
-    border-radius: 30px;
+    border-radius: 20px;
     border-style: solid;   
     border-width: 5px;
     border-color: #3883f6;
+    height: 200px;
+    width: 200px;
 }
 .card{
     display: flex;
@@ -111,6 +114,7 @@ img{
     max-width: 200px;
 }
 .card p{
+    
     padding-left: 30px;
     padding-right: 30px;
     align-self: center;
@@ -162,10 +166,8 @@ img{
 .button2{
     padding: 5px 20px;
     background-color:#3883f6;
+    border: 2px solid #e5e7eb;
     border-radius: 5px;
-    color:white;
-    font-weight: 900;
-    border-color:red;
     
 }
 
@@ -189,8 +191,8 @@ img{
 .footer{
     background-color: #1f2937;
     text-align: center;
-    color: aliceblue;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    color:#e5e7eb;
+    padding-top:1rem;
+    padding-bottom: 1rem;
     font-size: 18px;
 }
